@@ -16,4 +16,9 @@
     <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="2.0.3" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\IPolice.Core\IPolice.Core.csproj" />
+    <ProjectReference Include="..\IPolice.Infrastructure.Data\IPolice.Infrastructure.Data.csproj" />
+  </ItemGroup>
+
 </Project>
